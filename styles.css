@@ -121,6 +121,83 @@ section {
     margin-top: 1em;
 }
 
+form {
+    background-color: #2a2a2a;
+    color: #f0e6d2;
+    padding: 2em;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #e0c091;
+    text-align: center;
+}
+
+form label {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #f0e6d2;
+}
+
+form input, form select, form textarea {
+    padding: 0.8em;
+    background-color: #3b3b3b;
+    color: #f0e6d2;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    outline: none;
+    border-color: #e0c091;
+    box-shadow: 0 0 8px rgba(224, 192, 145, 0.8);
+}
+
+form button {
+    background-color: #3b3b3b;
+    color: #f0e6d2;
+    font-weight: bold;
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #5a5a5a;
+    color: #e0c091;
+}
+
+form .error {
+    color: #e57373;
+    font-size: 0.9em;
+}
+
+.success-message {
+    margin-top: 20px;
+    padding: 1em;
+    background-color: #2a7a2a;
+    color: #f0e6d2;
+    border: 2px solid #1e6e1e;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
 footer {
     background-color: #282828;
     color: #f0e6d2;
